@@ -1,12 +1,28 @@
 {
   "name": "vite-plugin-qiankun-assets",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "解决 vite-plugin-qiankun 在集成后，由于子应用的图片为相对地址，导致无法显示",
+  "keywords": [
+    "vite",
+    "plugin",
+    "qiankun"
+  ],
+  "main": "dist/index.js",
   "type": "module",
+  "files": [
+    "vite-plugin-qiankun-assets/dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup index.js --file dist/index.js --format es"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "xusyang",
+  "license": "MIT",
+  "homepage": "https://github.com/xusyang/vite-qiankun",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xusyang/vite-qiankun.git"
+  },
+  "dependencies": {
+    "rollup": "^3.9.1"
+  }
 }
