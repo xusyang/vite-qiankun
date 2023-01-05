@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img :src="svg" alt="" srcset="" />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -11,6 +12,7 @@
 </template>
 
 <script setup>
+import svg from './assets/vue.svg'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
