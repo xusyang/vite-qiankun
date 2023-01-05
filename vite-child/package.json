@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "qiankun": "^2.8.4",
+    "vite-plugin-qiankun-assets": "^1.0.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
